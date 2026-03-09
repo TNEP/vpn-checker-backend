@@ -55,6 +55,33 @@ URLS_RU = [
     "https://jsnegsukavsos.hb.ru-msk.vkcloud-storage.ru/love",
     "https://etoneya.a9fm.site/1",
     "https://s3c3.001.gpucloud.ru/vahe4xkwi/cjdr"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/3.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/4.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/5.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/7.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/11.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/12.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/13.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/14.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/15.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/16.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/17.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/18.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/19.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/20.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/21.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt"
+    "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt"
+    
 ]
 
 URLS_MY = [
@@ -257,7 +284,7 @@ def save_chunked(keys_list, folder, base_name, chunk_size=None):
     return file_names
 
 def generate_subscriptions_list():
-    GITHUB_USER_REPO = "kort0881/vpn-checker-backend"
+    GITHUB_USER_REPO = "TNEP/vpn-checker-backend"
     BRANCH = "main"
     BASE_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER_REPO}/{BRANCH}"
 
@@ -427,6 +454,7 @@ if __name__ == "__main__":
     print("\n✅ SUCCESS: FAST/ALL LAYERS GENERATED")
     print(f"  Префильтр: {len(RU_FILES)} RU + {len(EURO_FILES)} EURO (FAST)")
     print(f"  Постер: до 8 кнопок (FAST + ограниченные ALL)")
+
 
 
 
